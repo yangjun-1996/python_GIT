@@ -1,0 +1,49 @@
+问题1: 主目录下 有个 month01->exercise01
+
+绝对路径： /home/tarena/month01/exercise01.py
+
+问题2： 你在qtx中，找到homework
+     主目录 |---qtx（文件夹中）
+           |---month01---code--day01--homework
+
+相对路径:  ../month01/code/day01/homework
+
+较难命令示例：
+grep:
+grep "hello" hello.py
+print("hello world")
+
+find
+在 当前目录下 查找demo12.py这个文件
+find . -name demo12.py
+./Month01/code/day18/demo12.py
+
+管道
+查看当前目录下有没有 hello 文件
+ls | grep "hello"
+hello.py
+
+查看当前文件夹下有几个文件
+ls | wc -w
+
+zip
+zip file.zip *file*
+zip -r dir.zip dir1
+
+tar
+tar -cjf dir.tar.bz2 dir
+
+作业 ： 1. 命令，自己练习一遍
+       2. markdown文档 学习并使用
+       3. 复习节奏   类和函数的设计使用
+
+
+
+
+
+
+
+
+
+
+

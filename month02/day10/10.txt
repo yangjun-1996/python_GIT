@@ -1,0 +1,80 @@
+前情回顾
+
+1. 数据库的优化
+
+   数据库范式
+   引擎选择
+   字段选择和键的设置
+   sql语句的 优化
+   表的拆分
+
+2. 数据库备份
+
+   create table [tb] select .....
+
+   mysqldump
+
+3. 数据库用户和权限分配
+
+   远程登录数据库
+
+   创建新的用户   create user
+
+   权限分配  grant  revoke
+
+4. pymysql
+
+   打开 ：   db = pymysql.connect()
+            cur = db.cursor()
+
+   操作 ：  读    cur.execute()
+                fetchone() fetchmany() fetchall()
+
+           写    cur.execute()  cur.executemany()
+                 db.commit() db.rollback()
+
+   关闭 ：  cur.close()   db.close()
+
+   二进制文件存储
+
+
+数据管理总结：
+  文件处理
+     文件读写操作： open()-->read()/write()->close()
+     正则表达式： 元字符  规则  re模块
+
+  数据库处理
+     MySQL 基础语句 ： 建表 建库 增删改查 alter  高级查询 聚合
+     表的设计 ： 外键设计  关联设计  范式  E-R
+     其他内容： 视图  存储过程  基本优化  事务
+     pymysql使用
+
+
+练习1： 改写刚才的代码，使客户端可以循环输入内容给服务端发送
+内容，得到Thanks。直到客户端输入##退出
+
+
+练习2：
+在客户端循环输入单词，可以得到单词的解释，打印出来
+直接回车表示退出。
+
+服务端，负责查询单词， 单词从数据库dict中查询，
+给客户端提供查询结果
+
+提示： 可以复制示例代码， 可以进行适当的封装
+
+《图解HTTP协议》 《图解TCP/IP协议》
+
+
+作业： 1. udp重点程序  字节写
+      2. 函数和类
+
+
+
+
+
+
+
+
+
+

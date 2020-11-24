@@ -1,0 +1,57 @@
+前情回顾
+
+1. re --> flags  I  A  M S
+
+2. 数据库
+
+   优势 : 数据处理效率高  降低冗余  方便编程自动处理..
+
+   概念 : 数据库  数据库管理系统  数据库分类  表  字段  记录
+
+   mysql: 特点  安装   启动连接方法
+
+3. SQL  (不区分大小写, ;号结尾)
+
+   数据库语句
+
+   create database [db] charset=utf8;
+   show databases;
+   use [db];
+   select database();
+   drop database [db];
+
+   数据表语句
+
+   create table [tb] (col type 约束,.....);
+   show tables;
+   desc [tb];
+   show create table [tb];
+   drop table [tb];
+
+   数据类型 :   数字    tinyint  int  float
+               字符串  char  varchar  text
+
+   字段约束 :  not null   default [val]  unsigned
+             primary key  auto_increment  comment
+
+   插入语句
+   insert into [tb] (col1,col2...) values (val1..);
+
+   查找语句
+   select * from [tb];
+   select col1,col2 from [tb] where....
+
+   where :   算数   比较   逻辑
+
+
+作业: 1. 将前两天的基础语句总结
+
+          * 分块梳理
+          * 练习
+
+      2. studentsystem.py  看完
+
+
+
+
+

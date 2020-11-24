@@ -1,0 +1,67 @@
+前情回顾
+
+1. 什么是操作系统 OS
+
+2. Linux 操作系统
+
+   特点： 开源  网络功能强大  跨平台  多用户
+   构成： 内核  文件系统   shell命令  应用
+   使用： 服务器  嵌入式设备  桌面系统
+
+3. 文件系统
+
+    LINUX文件系统结构 ： 树形结构
+    文件位置表达 ：  绝对路径  相对路径
+
+4. LINUX命令  （shell命令）
+
+   man
+   ls  cd  mkdir  rm  touch cat grep  cp  mv
+   zip  tar
+
+   通配符 ：  *
+   管道： |
+
+
+疑难命令实例
+
+chmod 数字修改文件权限
+chmod  777  2.txt
+
+ln 软连接，源文件绝对路径
+ln -s /home/tarena/month02/day02/hello.py  hello
+
+
+练习1： 使用vi编写一个程序
+写一个求函数运行时间的装饰器
+
+提示 ：  import time
+
+        def fun():
+            pass
+
+        start = time.time()
+        fun()
+        end  = time.time()
+        end - start()
+
+plan : 求 1 到 20 20个整数的乘积结果
+
+
+
+用户名： root
+IP： 124.71.162.72
+密码： Aid_2009
+
+查看同桌IP： ifconfig
+你可以用：  ssh  tarena@同桌IP
+
+
+作业： 1. 命令使用一遍
+      2. 总结Linux使用内容
+      3. 使用vi编写  --》 求100000以内质数之和
+
+
+
+
+

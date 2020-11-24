@@ -1,0 +1,44 @@
+前情回顾
+
+1. 改和删
+   update [tb] set col=val,.. [where...];
+   delete from [tb] [where....];
+
+   alter语句-> 更改表结构
+   alter table [tb] add/drop/modify/change/rename
+
+2. 时间数据类型
+
+   date  time  datetime  now()
+
+3. 高级查询语句
+
+   模糊查询: like   % _
+   重命名 :  as
+   排序: order by
+   限制: limit .. offset
+   联合查询 :  [select ..]  union  [select ..]
+   子查询: from 后 将查询结果作为一个表
+          where 子句中  将查询结果作为值提供者
+
+4. 聚合操作
+
+   聚合函数 :  max()  avg() sum()  count()  min()
+
+   分组操作 : group by
+
+   聚合查询: having
+
+思考问题:
+微信用户信息--> 用户名  密码   电话
+朋友圈信息-->  照片  文字  时间  地点  点赞  评论
+
+
+练习: 根据所学表关系设计,重新设计用户朋友圈数据表,使之合理
+
+
+作业: 1. book表拆分为三个表   图书表  出版社表  作家
+
+        属性自拟 类型自拟  画出 E-R图,设定表关系,进行创建
+
+     2. 今天的语句熟练
